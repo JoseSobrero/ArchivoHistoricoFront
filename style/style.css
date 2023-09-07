@@ -97,3 +97,10 @@ body{
 #slider-span3:target ~ .image-slider {left: 25%;}
 #slider-span5:target ~ .image-slider {left: -25%;}
 #slider-span6:target ~ .image-slider {left: -50%;}
+
+.parrafo {
+    margin-left: 20%;
+    text-align: left;
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif
+}
