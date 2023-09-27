@@ -2,166 +2,247 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Archivo Histórico</title>
-  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo Histórico</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/lib/animate/animate.min.css">
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-        Archivo Histórico
-      </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#quienesSomos">Quienes somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <!-- seccion "home" -->
-  <section id="home">
-    <div class="slide-contanier">
-      <span class="slider-span" id="slider-span1"></span>
-      <span class="slider-span" id="slider-span2"></span>
-      <span class="slider-span" id="slider-span3"></span>
-      <span class="slider-span" id="slider-span4"></span>
-      <span class="slider-span" id="slider-span5"></span>
-      <span class="slider-span" id="slider-span6"></span>
-
-      <div class="image-slider">
-        <div class="slide-div" id="slide-1">
-          <img src="img/agente aduanero.jpg" alt="" class="img" id="img1">
-          <a href="#slider-span1" class="button" id="button-1"></a>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpg" alt="Logo" width="35" height="30" class="d-inline-block align-text-top">
+                Archivo Histórico
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienesSomos">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#librosPublicados">Libros Publicados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
         </div>
+    </nav>
 
-        <div class="slide-div" id="slide-2">
-          <img src="img/imajen aplicaion incorrecto.jpg" alt="" class="img" id="img2">
-          <a href="#slider-span2" class="button" id="button-2"></a>
+      <!-- seccion "home" -->
+      <section id="home">
+        <div>
+          <img src="img/logo.jpg" align="left" width="350">
+          <p class="parrafo">
+            El Centro Municipal de Estudios e Investigaciones Históricos de Morteros surgió
+            mediante la aprobación de la Ordenanza Nº 900 por parte del Concejo Deliberante de
+            Morteros el 7 de junio de 1988. Esta entidad se estableció como un organismo
+            descentralizado con el propósito de proporcionar información precisa, competente y
+            responsable, además de contar con la capacidad para evaluar adecuadamente los
+            diversos acontecimientos que han contribuido y siguen contribuyendo a la historia de
+            Morteros y a la de sus figuras destacadas.
+          </p>
         </div>
+        
+        <div class="slide-contanier">
+        <span class="slider-span" id="slider-span1"></span>
+        <span class="slider-span" id="slider-span2"></span>
+        <span class="slider-span" id="slider-span3"></span>
+        <span class="slider-span" id="slider-span4"></span>
+        <span class="slider-span" id="slider-span5"></span>
+        <span class="slider-span" id="slider-span6"></span>
 
-        <div class="slide-div" id="slide-3">
-          <img src="img/D_NQ_NP_979418-MLA32405423164_102019-W.jpg" alt="" class="img" id="img3">
-          <a href="#slider-span3" class="button" id="button-3"></a>
-        </div>
+        <div class="image-slider">
+            <div class="slide-div" id="slide-1">
+                <img src="img/bv25mayo.jpg" alt="" class="img" id="img1">
+                <a href="#slider-span1" class="button" id="button-1"></a>
+            </div>
 
-        <div class="slide-div" id="slide-4">
-          <img
-            src="img/11640284065ltdiw9sltqxb3jpf5psf6rk6qezqinacv7kbtxiqegvctavxrohuzyu4z5iddbhbptlt4qn3dzt1l9lgp1lmkekk7gqdbt2tufqd.jpg"
-            alt="" class="img" id="img4">
-          <a href="#slider-span4" class="button" id="button-4"></a>
-        </div>
+            <div class="slide-div" id="slide-2">
+                <img src="img/fachada.jpg" alt="" class="img" id="img2">
+                <a href="#slider-span2" class="button" id="button-2"></a>
+            </div>
 
-        <div class="slide-div" id="slide-5">
-          <img src="img/descarga.jpg" alt="" class="img" id="img5">
-          <a href="#slider-span5" class="button" id="button-5"></a>
-        </div>
+            <div class="slide-div" id="slide-3">
+                <img src="img/polo.jpg" alt="" class="img" id="img3">
+                <a href="#slider-span3" class="button" id="button-3"></a>
+            </div>
 
-        <div class="slide-div" id="slide-6">
-          <img src="img/imajen aplicaion incorrecto.jpg" alt="" class="img" id="img6">
-          <a href="#slider-span6" class="button" id="button-6"></a>
-        </div>
-      </div>
+            <div class="slide-div" id="slide-4">
+                <img src="img/bv25mayo.jpg" alt="" class="img" id="img4">
+                <a href="#slider-span4" class="button" id="button-4"></a>
+            </div>
 
+            <div class="slide-div" id="slide-5">
+                <img src="img/fachada.jpg" alt="" class="img" id="img5">
+                <a href="#slider-span5" class="button" id="button-5"></a>
+            </div>
+
+            <div class="slide-div" id="slide-6">
+                <img src="img/polo.jpg" alt="" class="img" id="img6">
+                <a href="#slider-span6" class="button" id="button-6"></a>
+            </div>
     </div>
   </section>
 
 
   <!-- seccion "quienes somos" -->
-  <section id="quienesSomos" class="quienesSomos">
-    <h2 class="Titulo">Quienes somos</h2>
-
-    <div class="div1">
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Fenoglio, Norma</h3>
-        <p><b>Presidente</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Pieroni, Maria Teresa</h3>
-        <p><b>Secretaria</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Cabrino, Cristina</h3>
-        <p><b>Bibliotecaria</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Barra, Santiago</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Masjoan, Maria Celia</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Barone, Hugo Juan</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Gandino, Matias</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Dolfi, Maria Teresa</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Masuero, Azucena</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Martinez, Pamela Celeste</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Mazucca, Javier</h3>
-        <p><b>Vocal</b></p>
-      </div>
-      <div class="div2">
-        <img src="img/OIP.jpeg">
-        <h3>Primo, Liliana</h3>
-        <p><b>Vocal</b></p>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- seccion "contacto" -->
-  <section id="contacto">
+  <section id="quienesSomos">
 
   </section>
 
-  <!-- Script de librerias -->
-  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="./js/jquery.js"></script>
+    <!-- seccion "librosPublicados" -->
+    <section id="librosPublicados" class="libroPublicado">
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img id="myImg" src="./img/polo.jpg" style="width: 200px; height: 250px;">
+                    <br><br>
+                    <h1 class="h1Libros">Titulo del libro</h1>
+                    <p class="parrafoLibros">Una breve descripcion del libro </p>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                        <h2 class="h2Libros">Titulo:</h2>
+                        <p-1 style="font-size: 30px; color: white;"> Aqui pondremos una descripcion extensa y
+                            detallada del libro que
+                            clickeamos</p-1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img id="myImg" src="./img/polo.jpg" style="width: 200px; height: 250px;">
+                    <br><br>
+                    <h1 class="h1Libros">Titulo del libro</h1>
+                    <p class="parrafoLibros">Una breve descripcion del libro </p>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                        <h2 class="h2Libros">Titulo:</h2>
+                        <p-1 style="font-size: 30px; color: white;"> Aqui pondremos una descripcion extensa y
+                            detallada del libro que
+                            clickeamos</p-1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img id="myImg" src="./img/polo.jpg" style="width: 200px; height: 250px;">
+                    <br><br>
+                    <h1 class="h1Libros">Titulo del libro</h1>
+                    <p class="parrafoLibros">Una breve descripcion del libro </p>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                        <h2 class="h2Libros">Titulo:</h2>
+                        <p-1 style="font-size: 30px; color: white;"> Aqui pondremos una descripcion extensa y
+                            detallada del libro que
+                            clickeamos</p-1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img id="myImg" src="./img/polo.jpg" style="width: 200px; height: 250px;">
+                    <br><br>
+                    <h1 class="h1Libros">Titulo del libro</h1>
+                    <p class="parrafoLibros">Una breve descripcion del libro </p>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                        <h2 class="h2Libros">Titulo:</h2>
+                        <p-1 style="font-size: 30px; color: white;"> Aqui pondremos una descripcion extensa y
+                            detallada del libro que
+                            clickeamos</p-1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion "contacto" -->
+    <section id="contacto" class="SeccionContacto">
+        <h1 class="h1Contacto">Contactanos</h1>
+
+        <div>
+            <div class="row align-items-start">
+                <div>
+
+                    <div class="mb-3">
+                        <label class="form-label" style="color:black">
+                            Dirección de Correo Electrónico</label>
+                        <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" style="color:black">
+                            Mensaje del Contacto</label>
+                        <textarea class="form-control textarea" rows="3"></textarea>
+                        <br>
+                        <button style="position:relative" type="button" class="btn btn-dark">Enviar</button>
+                    </div>
+
+                </div>
+                <div class="mapa">
+
+                    <div><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1080.4685370492393!2d-62.0100132469221!3d-30.71070337082595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943503d0c89969ef%3A0xf834739468e56033!2sArchivo%20Hist%C3%B3rico%20Municipal!5e0!3m2!1ses-419!2sar!4v1694817659680!5m2!1ses-419!2sar"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div>
+            <div style="text-align: center; font-family: sans-serif;" class="alert alert-dark" role="alert">
+                <div class="text-black text-opacity-75"><b>Nos encontrás en Lavalle 456 en la localidad de Morteros,
+                        Dpto. San
+                        Justo, Córdoba, Argentina - 3562-000000 - CP 2421</b></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="pFooter text-center"> <b>Estas son
+                nuestras redes sociales...</b> </p>
+
+        <ul class="social-icon text-center">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://wa.me/+54" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Script de librerias -->
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/jquery.js"></script>
+
+
+    <script src="lib/WOW/dist/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
 </body>
 
 </html>
