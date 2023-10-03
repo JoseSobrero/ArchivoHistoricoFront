@@ -151,12 +151,16 @@ body {
 
 /* quienes somos */
 .seccionQuienesSomos {
-  background-color: #eb3e3e;
+  background-color: #ffffff;
 }
 
 .quienesSomos {
   text-align: center;
   padding: 50px;
+}
+
+.h3QS{
+  font-size: 1.2em;
 }
 
 .TituloQS {
@@ -172,17 +176,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 35px;
 }
 
 .div2 {
   width: 27%;
   padding: 20px;
   background-color: #197991;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px;
   text-align: center;
   border-radius: 30px;
   margin-bottom: 20px;
+  transition: opacity 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.div2:hover {
+  transform: scale(1.1);
 }
 
 .div2 img {
