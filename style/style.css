@@ -1,15 +1,18 @@
 body {
-  background-color: #15b5c0ab;
-  align-items: center;
+  background-color: #d3dcddab;
+  /* align-items: center; */
 }
-
-.seccionHome {
-  background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43));
-}
-
+  
 /* navbar */
 .bg-custom {
   background-color: rgb(96, 183, 238);
+}
+.titulos {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: -2px 6px 7px rgb(56, 44, 44);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 
@@ -20,16 +23,16 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .centrarTexto {
+  display: flex;
   text-align: center;
-  max-width: 800px;
-  padding: 20px;
+  align-items: center;
+  padding: 60px;
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  color: #000000d8;
   text-align: justify;
 }
 
@@ -45,7 +48,7 @@ body {
 .image-slider {
   width: 100%;
   height: 600px;
-  position: absolute;
+  position: relative;
   left: 0;
   display: flex;
   justify-content: center;
