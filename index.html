@@ -41,12 +41,12 @@
     </nav>
 
     <!-- seccion "home" -->
-    <section id="home">
-
-        <h1 class="titulos">Archivo Histórico Morteros</h1>
-        <div class="centrarContenido">
+    <section id="home" class="seccionHome">
+        <h1 class="titulos">Archivo Historico Morteros</h1>
+        <hr>
+        <div class="centrarContenidoLogo">
             <div>
-                <img src="img/logo claro.png" width="450">
+                <img src="img/logo.jpg" width="350">
             </div>
         </div>
 
@@ -89,10 +89,9 @@
                     <a href="#slider-span6" class="button" id="button-6"></a>
                 </div>
             </div>
-        </div>
 
-            <div class="centrarTexto">
-                <p>
+            <div class="centrarContenidoDescrip">
+                <p class="centrarTexto">
                     <b>El Centro Municipal de Estudios e Investigaciones Históricos de Morteros surgió
                         mediante la aprobación de la Ordenanza Nº 900 por parte del Concejo Deliberante de
                         Morteros el 7 de junio de 1988. Esta entidad se estableció como un organismo
@@ -102,8 +101,6 @@
                         Morteros y a la de sus figuras destacadas.</b>
                 </p>
             </div>
-    
-
     </section>
 
     <!-- seccion "quienes somos" -->
@@ -246,63 +243,45 @@
     </section>
 
     <!-- seccion "contacto" -->
-    <section id="contacto" class="SeccionContacto">
+    <section
+        style="background-image: url(img/fondo1.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;;"
+        id="contacto" class="SeccionContacto">
         <h1 class="h1Contacto">Contactanos</h1>
+        <p class="text-center parrafocontacto">
+            Nos encontrás en Lavalle 456 en la localidad de Morteros,
+            Dpto. San
+            Justo, Córdoba, Argentina - 3562-000000 - CP 2421
+        </p>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center pt-4">
+                <label class="form-label" style="color:black">
+                    Dirección de Correo Electrónico</label>
 
-        <div>
-            <div class="row align-items-start">
-                <div>
-
-                    <div class="mb-3">
-                        <label class="form-label" style="color:black">
-                            Dirección de Correo Electrónico</label>
-                        <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label" style="color:black">
-                            Mensaje del Contacto</label>
-                        <textarea class="form-control textarea" rows="3"></textarea>
-                        <br>
-                        <button style="position:relative" type="button" class="btn btn-dark">Enviar</button>
-                    </div>
+                <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
+                <div class="mb-3">
+                    <label class="form-label" style="color:black">
+                        Mensaje del Contacto</label>
+                    <textarea class="form-control textarea" rows="3"></textarea>
+                    <br>
+                    <button style="position:relative" type="button" class="btn btn-dark">Enviar</button>
 
                 </div>
-                <div class="mapa">
 
-                    <div><iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1080.4685370492393!2d-62.0100132469221!3d-30.71070337082595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943503d0c89969ef%3A0xf834739468e56033!2sArchivo%20Hist%C3%B3rico%20Municipal!5e0!3m2!1ses-419!2sar!4v1694817659680!5m2!1ses-419!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
             </div>
-        </div>
 
-        </div>
-        <div>
-            <div style="text-align: center; font-family: sans-serif;" class="alert alert-dark" role="alert">
-                <div class="text-black text-opacity-75"><b>Nos encontrás en Lavalle 456 en la localidad de Morteros,
-                        Dpto. San
-                        Justo, Córdoba, Argentina - 3562-000000 - CP 2421</b></div>
+
+            <div class="col-md-6 col-sm-12 text-center">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.6013544723737!2d-61.92651388230672!3d-30.362277503296767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9435b05c8c954d69%3A0x4a02162eaf99bdff!2sEscuela%20Educacion%20Especial%20NRO.2091!5e0!3m2!1ses!2sar!4v1667430588268!5m2!1ses!2sar"
+                    width="600" height="400" style="border: 10px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         </div>
+
+
     </section>
 
-    <footer class="footer">
-        <p class="pFooter text-center"> <b>Estas son
-                nuestras redes sociales...</b> </p>
-
-        <ul class="social-icon text-center">
-            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://wa.me/+54" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-        </ul>
-    </footer>
 
     <!-- Script de librerias -->
     <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
