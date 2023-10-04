@@ -1,17 +1,12 @@
 body {
   background-color: #d3dcddab;
-  /* align-items: center; */
 }
-  
-/* navbar */
-.bg-custom {
-  background-color: rgb(96, 183, 238);
-}
+
 .titulos {
   font-size: 3em;
   text-align: center;
   text-shadow: -2px 6px 7px rgb(56, 44, 44);
-  padding-top: 2%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
