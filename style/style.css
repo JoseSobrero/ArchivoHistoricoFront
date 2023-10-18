@@ -148,6 +148,32 @@ padding-bottom: 15px;
 #slider-span6:target~.image-slider {
   left: -50%;
 }
+@keyframes carouselAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  75% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  animation: carouselAnimation 10s linear infinite; /* 10s para 10 segundos, ajusta según sea necesario */
+}
 
 
 /* quienes somos */
