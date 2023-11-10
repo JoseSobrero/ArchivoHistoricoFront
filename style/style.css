@@ -2,11 +2,19 @@ body {
   background-color: #d3dcddab;
 }
 
+.tituloPrincipal {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: -2px 4px 5px rgb(56, 44, 44);
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
 .titulos {
   font-size: 3em;
   text-align: center;
-  text-shadow: -2px 6px 7px rgb(56, 44, 44);
-  padding-top: 6%;
+  text-shadow: -2px 4px 5px rgb(56, 44, 44);
+  padding-top: 4%;
   padding-bottom: 2%;
 }
 
@@ -181,13 +189,6 @@ padding-bottom: 15px;
   font-size: 1.2em;
 }
 
-.TituloQS {
-  padding-top: 33px;
-  margin-bottom: 30px;
-  text-align: center;
-  color: #0c1c61;
-}
-
 .div1 {
   display: flex;
   justify-content: center;
@@ -235,11 +236,11 @@ padding-bottom: 15px;
 /* Cards */
 /* Estilo Texto */
 
-.h1tituloLibros{
+/* .h1tituloLibros{
   text-align: center;
   color: #0c1c61;
   font-size: 35px;
-}
+} */
 /* 
 .libroPublicado {
   background-color: #94E5DF;
@@ -383,11 +384,6 @@ padding-bottom: 15px;
 
 /* Contacto */
 
-.parrafocontacto {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  font-size: large;
-}
 
 iframe {
   box-shadow: 2px 2px 3px 3px #00000094;
@@ -397,7 +393,7 @@ iframe {
   font-size: 3em;
   color: white;
   text-align: center;
-  text-shadow: -2px 6px 7px rgb(223, 207, 207);
+  text-shadow: -2px 4px 5px rgb(223, 207, 207);
   padding-top: 30px;
 }
 
@@ -415,7 +411,7 @@ iframe {
 }
 
 .btn {
-  box-shadow: 1px 2px 2px 2px;
+  box-shadow: 0.5px 1px 1px 1px;
   height: 50px;
   width: 80px;
 }
@@ -428,4 +424,9 @@ iframe {
 
 .navbarr{
   z-index: auto;
+}
+
+/* Seccion nosotros */
+#nosotros, #librosPublicados {
+  background-color: #d2d0d3;
 }
